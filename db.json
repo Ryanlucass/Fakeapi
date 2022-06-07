@@ -1,20 +1,3 @@
 {
-"id": 2,
-"amount": 23,
-"charges": [
-  {
-	"paid_at": "2022/03/03",
-	"last_transaction": {
-	  "gateway_authorization": "f3a4274e-9777-4fce-84c1-66269e98a3e8"
-	},
-	"payment_method": {
-	  "name": "Credit"
-	}
-  }
-],
-"payment_profile": {
-  "payment_company": {
-	"name": "Visa"
-  }
-}
+"Empresa": "Taxi"
 }
