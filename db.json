@@ -1,0 +1,20 @@
+{
+	"id": 0,
+	"amount": 0,
+	"charges": [
+	  {
+		"paid_at": "string",
+		"last_transaction": {
+		  "gateway_authorization": "string",
+		},
+		"payment_method": {
+		  "name": "string",
+		}
+	  }
+	],
+	"payment_profile": {
+	  "payment_company": {
+		"name": "string"
+	  }
+	}
+}
