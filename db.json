@@ -1,19 +1,20 @@
-
 {
-  "cursos": [
-    { "id": 1, "titulo": "Entendendo o ES6", "url": "https://www.codeprestige.com.br/cursos/es6" },
-    { "id": 2, "titulo": "Produtividade Máxima com o VS Code", "url": "https://www.udemy.com/truques-vscode/" },
-    { "id": 3, "titulo": "Entendendo o ES7/ES8", "url": "https://www.codeprestige.com.br/cursos/es7-8" },
-    { "id": 4, "titulo": "React 16 Definitivo", "url": "https://www.udemy.com/react-16/" }
-  ],
-  "alunos": [
-    { "id": 1, "nome": "Marcela da Silva", "curso": 1 },
-    { "id": 2, "nome": "José Luiz Felipe", "curso": 2 },
-    { "id": 3, "nome": "Paulo Rogério", "curso": 3 },
-    { "id": 4, "nome": "Felipe da Cunha", "curso": 1 },
-    { "id": 5, "nome": "Luiza Cardoso Pereira", "curso": 1 }
-  ],
-  "empresa": {
-    "nome": "Code Prestige"
+  "profile": {
+	"id": 2,
+	"amount": 23,
+  "charges":[{
+   "paid_at": "2022/03/03",
+	"last_transaction": {
+	  "gateway_authorization": "f3a4274e-9777-4fce-84c1-66269e98a3e8"
+	},
+	"payment_method": {
+	  "name": "Credit"
+	}
+    }],
+	"payment_profile": {
+	  "payment_company": {
+		"name": "Visa"
+	  }
+	}
   }
 }
