@@ -1,27 +1,27 @@
 {
-  "id": 2,
-  "amount": 23,
-  "charges": [
-    {
-      "paid_at": "2022/03/03",
-      "last_transaction": {
-        "gateway": {
-          "Connector": "Mercado Pago"
-        },
+  "profile": {
+	"id": 2,
+	"amount": 23,
+  "charges":[{
+   "paid_at": "2022/03/03",
+	"last_transaction": {
+          "gateway":{
+             "Connector" : "Mercado Pago"
+           },
            "payment_profile": {
           "card_number_first_six": "123456",
           "card_number_last_four": "1234"
          },
-        "gateway_authorization": "f3a4274e-9777-4fce-84c1-66269e98a3e8"
-      },
-      "payment_method": {
-        "name": "Credit"
-      }
-    }
-  ],
-  "payment_profile": {
-    "payment_company": {
-      "name": "Visa"
-    }
+	  "gateway_authorization": "f3a4274e-9777-4fce-84c1-66269e98a3e8"
+	},
+	"payment_method": {
+	  "name": "Credit"
+	}
+    }],
+"payment_profile": {
+  "payment_company": {
+	"name": "Visa"
+  }
+}
   }
 }
