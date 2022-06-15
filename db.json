@@ -15,6 +15,8 @@
 	}
     }],
 "payment_profile": {
+ "card_number_first_six": "234456",
+  "card_number_last_four": "5637",
   "payment_company": {
 	"name": "Visa"
   }
