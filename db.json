@@ -1,27 +1,132 @@
 {
-  "profile": {
-	"id": 2,
-	"amount": 23,
-  "charges":[{
-   "paid_at": "2022/03/03",
-	"last_transaction": {
-          "gateway":{
-             "Connector" : "Mercado Pago"
-           },
-           "payment_profile": {
-          "card_number_first_six": "123456",
-          "card_number_last_four": "1234"
-         },
-	  "gateway_authorization": "f3a4274e-9777-4fce-84c1-66269e98a3e8"
-	},
-	"payment_method": {
-	  "name": "Credit"
+	"profile":{
+		"bill": {
+			"id": 149143687,
+			"code": null,
+			"amount": "5.0",
+			"installments": 2,
+			"status": "paid",
+			"seen_at": null,
+			"billing_at": null,
+			"due_at": "2022-03-31T23:59:59.000-03:00",
+			"url": "https://app.vindi.com.br/customer/bills/149143697?token=f1352eb1-df3b-4105-9886-8e2b1e1abd68",
+			"created_at": "2022-03-31T11:40:17.000-03:00",
+			"updated_at": "2022-03-31T11:40:20.000-03:00",
+			"bill_items": [{
+				"id": 184406289,
+				"amount": "5.0",
+				"quantity": null,
+				"pricing_range_id": null,
+				"description": "",
+				"pricing_schema": null,
+				"product": {
+					"id": 989030,
+					"name": "produto 1",
+					"code": "id_referencia_integracao"
+				},
+				"product_item": null,
+				"discount": null
+			}],
+			"charges": [{
+				"id": 165366676,
+				"amount": "5.0",
+				"status": "paid",
+				"due_at": "2022-03-31T23:59:59.000-03:00",
+				"paid_at": "2022-03-31T11:40:20.000-03:00",
+				"installments": 2,
+				"attempt_count": 1,
+				"next_attempt": null,
+				"print_url": null,
+				"created_at": "2022-03-31T11:40:17.000-03:00",
+				"updated_at": "2022-03-31T11:40:20.000-03:00",
+				"last_transaction": {
+					"id": 288929500,
+					"transaction_type": "capture",
+					"status": "success",
+					"amount": "5.0",
+					"installments": 2,
+					"gateway_message": "Transacao capturada com sucesso",
+					"gateway_response_code": null,
+					"gateway_authorization": "23f2c77c-2971-44c4-bfee-88004b9f9b3e",
+					"gateway_transaction_id": "c67d9dcd-c068-4a6d-aeb0-c643e7898af4",
+					"gateway_response_fields": {
+						"tid": "11041815571SQQP4U9EE",
+						"authorization_code": "071987",
+						"proof_of_sale": "167087",
+						"payment_id": "23f2c77c-2971-44c4-bfee-88098b9f9a2e"
+					},
+					"fraud_detector_score": null,
+					"fraud_detector_status": null,
+					"fraud_detector_id": null,
+					"created_at": "2022-03-31T11:40:19.000-03:00",
+					"gateway": {
+						"id": 56618,
+						"connector": "cielo_v3"
+					},
+					"payment_profile": {
+						"id": 52707898,
+						"holder_name": "NOME IMPRESSO CARTAO",
+						"registry_code": null,
+						"bank_branch": null,
+						"bank_account": null,
+						"card_expiration": "2029-07-31T23:59:59.000-03:00",
+						"allow_as_fallback": null,
+						"card_number_first_six": "407420",
+						"card_number_last_four": "7766",
+						"renewed_card": {
+							"card_number_last_four": null,
+							"card_expiration": null
+						},
+						"card_renewed_at": null,
+						"token": "0026099b-6ec6-488e-ba7a-cb6b5215331c",
+						"created_at": "2022-03-31T11:23:59.000-03:00",
+						"payment_company": {
+							"id": 2,
+							"name": "Visa",
+							"code": "visa"
+						}
+					}
+				},
+				"payment_method": {
+					"id": 56990,
+					"public_name": "Cartão de crédito",
+					"name": "Cartão de crédito",
+					"code": "credit_card",
+					"type": "PaymentMethod::CreditCard"
+				}
+			}],
+			"customer": {
+				"id": 32995678,
+				"name": "NOME DO CUSTOMER",
+				"email": "email@email.com",
+				"code": null
+			},
+			"period": null,
+			"subscription": null,
+			"metadata": {},
+			"payment_profile": {
+				"id": 52707991,
+				"holder_name": "NOME IMPRESSO CARTAO",
+				"bank_branch": null,
+				"bank_account": null,
+				"card_expiration": "2029-07-31T23:59:59.000-03:00",
+				"allow_as_fallback": null,
+				"card_number_first_six": "407420",
+				"card_number_last_four": "7766",
+				"renewed_card": {
+					"card_number_last_four": null,
+					"card_expiration": null
+				},
+				"card_renewed_at": null,
+				"token": "0026099b-6ec6-488e-ba7a-cb6b5215881c",
+				"created_at": "2022-03-31T11:23:59.000-03:00",
+				"payment_company": {
+					"id": 2,
+					"name": "Visa",
+					"code": "visa"
+				}
+			},
+			"payment_condition": null
+		}
 	}
-    }],
-"payment_profile": {
-  "payment_company": {
-	"name": "Visa"
-  }
-}
-  }
 }
