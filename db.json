@@ -17,14 +17,14 @@
 				"quantity": null,
 				"pricing_range_id": null,
 				"description": "",
-				"pricing_schema": null,
+				"pricing_schema": {},
 				"product": {
 					"id": 989030,
 					"name": "produto 1",
 					"code": "id_referencia_integracao"
 				},
-				"product_item": null,
-				"discount": null
+				"product_item": {},
+				"discount": {}
 			}],
 			"charges": [{
 				"id": 165366676,
@@ -100,8 +100,9 @@
 				"email": "email@email.com",
 				"code": null
 			},
-			"period": null,
-			"subscription": null,
+			"period": {},
+			"subscription": {},
+                        "customer": {},
 			"metadata": {},
 			"payment_profile": {
 				"id": 52707991,
@@ -125,6 +126,6 @@
 					"code": "visa"
 				}
 			},
-			"payment_condition": null
+			"payment_condition": {}
 		}
 }
