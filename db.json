@@ -1,6 +1,5 @@
 {
 	"profile":{
-		"bill": {
 			"id": 149143687,
 			"code": null,
 			"amount": "5.0",
@@ -128,5 +127,4 @@
 			},
 			"payment_condition": null
 		}
-	}
 }
