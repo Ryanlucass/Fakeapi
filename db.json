@@ -1,12 +1,12 @@
 {
 	"profile":{
 			"id": 149143687,
-			"code": null,
+			"code": "teste_code",
 			"amount": "5.0",
 			"installments": 2,
 			"status": "paid",
-			"seen_at": null,
-			"billing_at": null,
+			"seen_at": "teste seen_at",
+			"billing_at": "teste",
 			"due_at": "2022-03-31T23:59:59.000-03:00",
 			"url": "https://app.vindi.com.br/customer/bills/149143697?token=f1352eb1-df3b-4105-9886-8e2b1e1abd68",
 			"created_at": "2022-03-31T11:40:17.000-03:00",
@@ -14,9 +14,9 @@
 			"bill_items": [{
 				"id": 184406289,
 				"amount": "5.0",
-				"quantity": null,
-				"pricing_range_id": null,
-				"description": "",
+				"quantity": 0,
+				"pricing_range_id": 0,
+				"description": "teste",
 				"pricing_schema": {},
 				"product": {
 					"id": 989030,
@@ -34,8 +34,8 @@
 				"paid_at": "2022-03-31T11:40:20.000-03:00",
 				"installments": 2,
 				"attempt_count": 1,
-				"next_attempt": null,
-				"print_url": null,
+				"next_attempt": 0,
+				"print_url": "teste",
 				"created_at": "2022-03-31T11:40:17.000-03:00",
 				"updated_at": "2022-03-31T11:40:20.000-03:00",
 				"last_transaction": {
@@ -45,7 +45,7 @@
 					"amount": "5.0",
 					"installments": 2,
 					"gateway_message": "Transacao capturada com sucesso",
-					"gateway_response_code": null,
+					"gateway_response_code": "asdasdasdas",
 					"gateway_authorization": "23f2c77c-2971-44c4-bfee-88004b9f9b3e",
 					"gateway_transaction_id": "c67d9dcd-c068-4a6d-aeb0-c643e7898af4",
 					"gateway_response_fields": {
@@ -54,9 +54,9 @@
 						"proof_of_sale": "167087",
 						"payment_id": "23f2c77c-2971-44c4-bfee-88098b9f9a2e"
 					},
-					"fraud_detector_score": null,
-					"fraud_detector_status": null,
-					"fraud_detector_id": null,
+					"fraud_detector_score": 0,
+					"fraud_detector_status": "automatic_success",
+					"fraud_detector_id": "testeste",
 					"created_at": "2022-03-31T11:40:19.000-03:00",
 					"gateway": {
 						"id": 56618,
@@ -65,18 +65,18 @@
 					"payment_profile": {
 						"id": 52707898,
 						"holder_name": "NOME IMPRESSO CARTAO",
-						"registry_code": null,
-						"bank_branch": null,
-						"bank_account": null,
+						"registry_code": "asldkajs",
+						"bank_branch": "asdasd",
+						"bank_account": "sdfsdf",
 						"card_expiration": "2029-07-31T23:59:59.000-03:00",
-						"allow_as_fallback": null,
+						"allow_as_fallback": true,
 						"card_number_first_six": "407420",
 						"card_number_last_four": "7766",
 						"renewed_card": {
-							"card_number_last_four": null,
-							"card_expiration": null
+							"card_number_last_four": "sfsdfsdf",
+							"card_expiration": "dfgsdfgsdf"
 						},
-						"card_renewed_at": null,
+						"card_renewed_at": "sdfsfs",
 						"token": "0026099b-6ec6-488e-ba7a-cb6b5215331c",
 						"created_at": "2022-03-31T11:23:59.000-03:00",
 						"payment_company": {
@@ -98,7 +98,7 @@
 				"id": 32995678,
 				"name": "NOME DO CUSTOMER",
 				"email": "email@email.com",
-				"code": null
+				"code": "sdfsdfsdf"
 			},
 			"period": {},
 			"subscription": {},
@@ -107,17 +107,17 @@
 			"payment_profile": {
 				"id": 52707991,
 				"holder_name": "NOME IMPRESSO CARTAO",
-				"bank_branch": null,
-				"bank_account": null,
+				"bank_branch": "sfasdfasdf",
+				"bank_account": "asdfasdfa",
 				"card_expiration": "2029-07-31T23:59:59.000-03:00",
-				"allow_as_fallback": null,
+				"allow_as_fallback": true,
 				"card_number_first_six": "407420",
 				"card_number_last_four": "7766",
 				"renewed_card": {
-					"card_number_last_four": null,
-					"card_expiration": null
+					"card_number_last_four": "123412",
+					"card_expiration": "2341234"
 				},
-				"card_renewed_at": null,
+				"card_renewed_at": "wqrqwer",
 				"token": "0026099b-6ec6-488e-ba7a-cb6b5215881c",
 				"created_at": "2022-03-31T11:23:59.000-03:00",
 				"payment_company": {
