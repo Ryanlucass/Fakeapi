@@ -23,4 +23,4 @@ A partir dai sua API estará disponível no edereço de url **https://my-json-se
 Para mais informações detalhadas sobre a api e sobre as suas possibilidads, aconselho dar uma olhada na documentação feita pelo Diego Martins Pinho, que me ajudou bastante na hora de criar a mihha.
 [Criar api fake](https://medium.com/code-prestige/como-criar-um-a-api-rest-fake-para-testes-jsonplaceholder-7cc106ea3bd6)
 
-Made with ♥ by Ryanlucass :wave: 
+Made with ♥ by Lucas Ryan :wave: 
